@@ -1,0 +1,52 @@
+@import url(../style/font.css);
+
+$body-bg: #040d1f;
+$color-primary: #fff !global;
+$color-second: #c8c8c8 !global;
+$btn-color: #000 !global;
+$txt-black: #000 !global;
+$btn-bg: #f18128 !global;
+$focus-color: #ed8e00 !global;
+$section-title: #f18128 !global;
+
+
+$mnts-bold: 'Montserrat-Bold' !global;
+$mnts-reg: 'Montserrat-Regular' !global;
+$cmfr-reg: 'Comfortaa-Regular' !global;
+$cmfr-bold: 'Comfortaa-Bold' !global;
+$rob-reg: 'Roboto-Regular' !global;
+$rob-medium: 'Roboto-Medium' !global;
+
+//content
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+html {
+  scroll-behavior: smooth;
+  background: $body-bg;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//header
+
+#header .row {
+  background: linear-gradient(
+    90deg,
+    #3800af 0%,
+    #bf7204 97.52%,
+    #c27500 100%,
+    #c27500 100%
+  );
+  padding: 16px 0;
+  .col-12 {
+    color: #fff;
+    font-family: $cmfr-reg;
+    font-size: 16px;
+    font-weight: 400;
+
